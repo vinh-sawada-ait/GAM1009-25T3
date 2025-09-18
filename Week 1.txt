@@ -1,0 +1,60 @@
+# Week 1
+TOPIC: Introduction to Game Engines
+CONCEPT: Approaching Game design/development
+TERMINOLOGY: Blueprint, Player Pawn, Inputs
+SKILL: Create Blueprint, manage files, use version control system, document progress (?!)
+
+3x 1hr blocks
+5min break between blocks
+
+Fav video game:
+Watch Dogs 2
+No Man's Sky
+Stanley Parable Ultra Deluxe
+Persona 5
+LoL
+Mars Attracts
+Limbo
+Deltarune
+Arknights
+Res Evil Village
+
+https://discord.gg/BpZtxhwX
+
+Agenda:
+Block 1:
+Unreal Engine 5.6.1
+GitHub
+Make Copy of Google Docs Dev Log:
+https://docs.google.com/document/d/1DYoI5g90oF1HOw2SU8wnWjbNaZi3s8Laui2Jl20YCQk/
+
+Break until 2:15
+
+Set up UE and GitHub, UE interface tour
+What is a game-engine, scripting?
+
+Block 2:
+Create a blank UE project
+Call it "MyFlyingShmup"
+Location is going to be in your Local GitHub Repo
+Opened up project
+Updated project settings
+updated editor settings
+disabled Houdini plugin (if you are on a school machine)
+GitHub Desktop app, to add folders to the ignore list
+Pushed our new blank project to GitHub
+
+Do some video game analysis
+
+Break until 3:05
+
+Block 3:
+Assignment 1
+Activity 2
+Create a new folder
+Create a new "basic" level
+
+Build a tank shooter
+
+Homework:
+follow dev log week 1.
