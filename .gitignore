@@ -75,3 +75,6 @@ DerivedDataCache/*
 
 # Source asset files
 Source/*
+/MyFlyingShmup/Intermediate
+/MyFlyingShmup/DerivedDataCache
+/MyFlyingShmup/Saved
