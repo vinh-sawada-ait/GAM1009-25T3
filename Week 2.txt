@@ -1,0 +1,68 @@
+# Week 2
+## TOPIC: Basic Player Functionality
+## CONCEPT: Applying Knowledge from Documentation
+## TERMINOLOGY: Player Pawn, Inputs, Events, Integer, Boolean, String, Float, Vector, Static Mesh (Asset, Component, Actor)
+## SKILL: Commenting in Blueprints
+
+Agenda
+- Plan a simple game mechanic (player movement)
+- Create a flying vehicle
+- Script the flying movement
+- Test and troubleshoot
+- Develop the 3D model
+
+Q&A for Assignment 1
+Google Sites <---
+
+Video analysis practice
+
+====
+General approach to programming should always include planning phase
+
+What are we building?
+Define it, it simple terms
+Flying object that moves in 2D (left/right/forward/backwards)
+When a player provides associated input that defines (left/right/forward/backwards)
+collision? Bounds of screen?
+
+Determine core features
+Object (geometry, model, 2D sprite)
+movement
+player inputs
+2D
+
+Identify the separate parts
+
+Draw a diagram
+
+Break 2:10
+
+Create BP_PlayerPawn
+	Adding components
+	component settings (detail panel)
+
+inputIsForward		Boolean
+inputIsBackward		Boolean
+inputIsRight		Boolean
+inputIsLeft		Boolean
+
+MovingForwardBackward	Float (-1 to 1)
+
+InputMove		2D vector
+
+Break until 3:05
+
+
+Pick a theme:
+- Historic aviation
+- Modern airforce
+- Futuristic spaceship
+
+5 mins of sketching/research
+
+
+
+
+
+
+
