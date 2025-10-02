@@ -1,0 +1,62 @@
+# Week 3
+- TOPIC: Polish Movement Mechanics
+- CONCEPT: Game Engine Framework / Variables
+- TERMINOLOGY: Game Mode, Game Instance, Game
+State, Player State, Player Controller, Tick, Interpolation
+- SKILL: Implement standards, style guide and naming
+conventions
+
+# Agenda
+- Learn about UE framework, naming conventions
+- Add rotating element to our flying vehicle
+- Create smooth movement for our flying vehicle
+
+Q&A for Assignment 1
+● Quick overview of google sites
+Start and End of Day, I'll be checking emails
+
+The Gameplay Framework
+What is a "class?"
+
+A defined a specific category
+
+"sub-classes"?
+
+Style Guide
+
+Break until 2:10
+
+General approach to programming should always
+include planning phase
+What are we building?
+● Determine game mechanics/features
+	A simple helicopter with smooth movement controlled by the player using a keyboard and mouse
+
+● Identify the separate parts of the
+mechanics/features
+	Rotating parts (rotors)
+	Animation
+	Vertical lift
+	Move forward/backward/left/right
+	Sound/Audio (leave this for now)
+	Movement variables (Speed, acceleration)
+	Collision
+	Camera
+
+● What classes of the game play framework can we interact with?
+	Pawn
+	Player
+	World
+	Movement component
+	Camera component
+	Inputs
+	
+
+● Draw a diagram
+
+Create a new class: Pawn
+Add components
+	
+Break until 3:05
+
+
