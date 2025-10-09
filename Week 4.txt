@@ -1,0 +1,9 @@
+# Week 4
+TOPIC: Shooting Mechanics
+CONCEPT: Inheritance, unit math
+TERMINOLOGY: Parent class, child instance, parameter, material, material instance, spawn
+SKILL: Create parent and child classes, create parent materials and child material instances
+
+Introduction to materials
+Create projectile parent and child classes
+Create different shooting modes
