@@ -1,0 +1,55 @@
+# Week 5
+- TOPIC: Spawning Enemies and Collision Detection
+- CONCEPT: Spawning and Destroying Actors/Objects
+- TERMINOLOGY: collision, object type, trace type, overlap, block, query, timer
+- SKILL: Configure custom collision, create custom functions
+
+# Agenda
+- Create enemy that flies straight and shoots
+- Create a system that spawns the enemy
+- Configure collision in the project and on the actor classes so that enemies detect when shot.
+
+Assignment 1
+Why/How
+Goal: create games that are engaging, fun, exciting, 'addictive?', compelling
+
+Assign 2: Q&A
+
+Reflective:
+Analyse results?
+Analyse the approach/process/concept/thinking.
+
+Industry Expectations for graduates
+-How to develop other people's scripts
+-How to develop in large projects
+-Learn how to use version control
+	'Diffing' < --- inspecting the differences
+
+
+
+Activity 3
+Endless enemy spawning
+
+Need an enemy
+	Collision
+	Geometry
+	Material
+	Shooting mechanic
+	Movement
+
+Need a spawner (BP_EnemySpawner)
+	What? enemy to spawn
+	Where? Location to spawn
+		Let's pick a random Y value that can be used to position the enemy, just off screen.
+	When? time at which to spawn
+
+We have created a BP_Enemy_A
+We created a child of BP_Bullet_2D
+	Called it BP_Bullet_2D_Player
+	Made it blue, using a material instance
+
+Break until 2:10
+
+Modelling plus break until 3:10
+
+

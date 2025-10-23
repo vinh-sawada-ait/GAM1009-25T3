@@ -1,0 +1,69 @@
+# Week 6
+TOPIC: Collision Effects and Enemy Health
+CONCEPT: Visual and Audio Gameplay Feedback
+TERMINOLOGY: UI, HUD, Widget, Overlay Material, 2D Audio, 3D Audio, particle system (Niagara)
+SKILL: Create basic UI Widgets, create basic particle system
+
+Schedule:
+Enemy health system
+Feedback for damage and death
+Particle systems
+
+Insert Boundary as a blocking volume
+
+
+# Enemy Health System
+ - What are we building?
+	Enemy overlaps player's bullet (has a fixed damage, stored as a float) and causes enemy to lose health, until 0, when it dies.
+	a float variable which represents the enemy's health
+	start with a float variable "max health"
+	Visual effects
+	Audio effects
+ - Draw a diagram of our existing enemy system (including spawning, shooting, collision detection and death)
+ - Add new parts to the diagram for a health system
+
+
+Float vs integer?
+
+Integers
+faster to calculate
+don't need to round them off, to present on the UI
+bullets do 10dmg
+health at 100hp
+
+if you have a pickup...
+That adds dmg.
+bullets 100+20 = 120
+adds by %
+bullets 100*1.2 = 120
+
+Health bar
+|=========-|
+
+Where should be create the blueprint script?
+Where could it go?
+	-Enemy <<<<<<<<<<<<<<<<<< Event occurs
+	-Player Fire (Bullet) <<< Event occurs
+	-Player
+	-Game State
+	-Enemy spawner
+
+Break until 2:15
+
+If you destroy an actor...your ability to reference it, or reference its components, or its variables...is lost.
+
+We need to ensure that the damage amount is communicated to the enemy BP before the bullet is destroyed.
+
+
+Break until 3:10
+
+
+
+
+
+
+
+
+
+
+
