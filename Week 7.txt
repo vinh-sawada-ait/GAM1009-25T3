@@ -5,7 +5,30 @@
  - SKILL: Integrate mouse controls, create enemies that react to player, implement a deterministic random spawning system
 
 # Schedule
+ - building a game package (10min)
+- Shooting mode, debug keypress
+- converting shooting modes between player pawns
  - Enemy turret 20min
+	Should inherit from BP_Base_Enemy
+		collision
+	showCollision
+		mesh
+		arrow
+	it should locate the player
+	some way for it to spin to face the player
+	
+	Set up timeline
+Break until 2:10
+
+
  - Homing enemy 20min
+
+Break til 3:05
+
  - Enemy spawner (deterministic randomisation) 60min
  - Mouse inputs and player shooting direction 40min
+
+
+- debugging generally
+- debug collision
+	- destroy actor
