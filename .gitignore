@@ -78,3 +78,6 @@ Source/*
 /MyFlyingShmup/Intermediate
 /MyFlyingShmup/DerivedDataCache
 /MyFlyingShmup/Saved
+/MyFlyingShmup/Binaries
+/MyFlyingShmup/Build
+/MyFlyingShmup/Packages
