@@ -1,0 +1,64 @@
+# Week 8
+TOPIC: Health, Life, Damage Systems
+CONCEPT: Classes, Actors and Casting, Interface
+TERMINOLOGY: “Cast to”, Actor Class, Actor Reference
+SKILL: Design and build features that implement the game framework (player controller, pawn, HUD/UI)
+
+
+# Schedule
+- Current health and damage systems revision
+- Create life system
+- Create basic pickup
+
+Q&A Assignment 2 results next week
+Introduce Assignment 3
+
+Break until 2:15
+
+Player Lives System
+?
+
+have multiple attempts before restarting
+
+Start with multiple lives and when you die it takes away one until you reach 0 and game over or restart
+
+What are the parts of this system?
+
+What are the existing parts of our current system that we will interact with?
+-UI (user widget)
+-integer can represent our lives
+-Player controller? Player state?
+-Player pawn
+	Lives  int  default = 3
+
+And what new parts don't exist yet?
+-UI component that shows the number of lives
+
+Break until 3:10
+
+Pickup
+
+-Base Actor class "PickUp"
+-Collision object type
+-On base class we can have values for
+	+score
+	+life
+	+health
+	+shooting mode index
+-create a set of child classes
+
+
+Homework
+-Implement the new interface method and replace all "cast to" methods that cast to your custom classes.
+
+Casting to Player Controller
+	Pawn
+	HUD
+
+
+
+
+
+
+
+
