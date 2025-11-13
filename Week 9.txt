@@ -1,0 +1,25 @@
+# Week 9
+TOPIC: User Interface
+CONCEPT: Game framework
+TERMINOLOGY: Widget class, canvas, panels, hit/non-hit detectable
+SKILL: Animate UI elements
+
+# Assignment 2 grades released this weekend
+
+# Schedule
+- Pause Menu / Start Screen
+- Animating the UI
+- Game HUD
+
+
+Terminology
+HUD 
+
+Break until 2:20
+
+Break until 3:18
+
+-Score
+-Lives as Icons
+
+
