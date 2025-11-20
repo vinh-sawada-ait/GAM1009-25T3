@@ -1,0 +1,13 @@
+# Week 10
+TOPIC: PickUps and PowerUps
+CONCEPT: Integrating new game mechanics
+TERMINOLOGY: Fresnel
+SKILL: Coordinate modifications to HUD, Pawn, Projectiles, PlayerController, Inputs
+
+Copy/Paste today’s tasks into DevLog
+Attendance check
+
+Schedule:
+Game HUD and interface revision
+Spawning pickups (deterministic randomisation)
+Forcefield / special weapon
