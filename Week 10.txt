@@ -8,6 +8,30 @@ Copy/Paste today’s tasks into DevLog
 Attendance check
 
 Schedule:
-Game HUD and interface revision
-Spawning pickups (deterministic randomisation)
-Forcefield / special weapon
+-Game HUD and interface revision
+-Spawning pickups (deterministic randomisation)
+-Forcefield / special weapon
+
+
+Break until 2:20
+
+Pickup actor
+Forcefield actor
+
+3:15
+PowerUp [EMP]
+
+Pick up an object
+then show an "bomb" icon on the UI
+2ndary fire button to trigger the bomb
+Once we use it, the icon disappears
+When the EMP is activated
+	-it searches for all enemies in a set area (radius)
+	-spawn some special effect to indicate the enemies that will receive damage
+	-apply damage to them all
+
+
+
+
+
+
