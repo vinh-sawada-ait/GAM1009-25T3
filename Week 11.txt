@@ -1,0 +1,44 @@
+# Week 11
+TOPIC: Complex Scripting Logic
+CONCEPT: Structs, data and data assets
+TERMINOLOGY: Struct, data asset, primary data asset
+SKILL: Specify a custom struct of data to create a flexible wave system
+
+
+-Quick UI/HUD revision
+Break Until 2:10pm
+
+-Activity 1: Moving enemy
+We have a base enemy that handles SFX/health/death/UI/Collision
+
+Break until 3pm
+-Activity 2: Enemy Boss
+-Activity 3: Enemy Wave System
+
+Planning/Discussion
+What are we building?
+
+Wave 1
+	Enemy A x10
+	Enemy B x5
+	Enemy C x5
+Wave 2
+	Enemy B x5
+	Enemy C x5
+	Enemy C x10
+Wave 3
+Wave 4
+	Boss x1
+
+A container to specify the contents of a wave.
+	initial delay	
+	enemy class + number to spawn
+	enemy class + number to spawn
+	enemy class + number to spawn
+	pickups could be available
+
+PDA_SetOfWaves (is the level config)
+	S_Wave
+		S_Enemies
+
+
